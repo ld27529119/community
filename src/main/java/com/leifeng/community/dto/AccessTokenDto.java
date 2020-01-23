@@ -1,9 +1,10 @@
 package com.leifeng.community.dto;
 
 /**
- * Created by ThinkPad on 2020/1/13.
+ * Created by ThinkPad on 2020/1/23.
  */
 public class AccessTokenDto {
+
     private String client_id;
     private String client_secret;
     private String code;
