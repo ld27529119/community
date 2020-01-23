@@ -35,6 +35,7 @@ http://localhost:8887
 [Markdown 插件](http://editor.md.ipandao.com/)   
 [UFfile SDK](https://github.com/ucloud/ufile-sdk-java)  
 [Count(*) VS Count(1)](https://mp.weixin.qq.com/s/Rwpke4BHu7Fz7KOpE2d3Lw)  
+[github授權]https://github.com/login/oauth/access_token
 
 ## 工具
 [Git](https://git-scm.com/download)   
