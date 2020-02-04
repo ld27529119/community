@@ -1,8 +1,12 @@
 package com.leifeng.community.model;
 
+import lombok.Data;
+
 /**
  * Created by ThinkPad on 2020/1/25.
  */
+
+@Data
 public class Community_User {
     private Long id;
     private String account_id;
@@ -10,52 +14,7 @@ public class Community_User {
     private String token;
     private Long gmt_create;
     private Long gmt_modified;
+    private String bio;
+    private String avatarUrl;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getAccount_id() {
-        return account_id;
-    }
-
-    public void setAccount_id(String account_id) {
-        this.account_id = account_id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getToken() {
-        return token;
-    }
-
-    public void setToken(String token) {
-        this.token = token;
-    }
-
-    public Long getGmt_create() {
-        return gmt_create;
-    }
-
-    public void setGmt_create(Long gmt_create) {
-        this.gmt_create = gmt_create;
-    }
-
-    public Long getGmt_modified() {
-        return gmt_modified;
-    }
-
-    public void setGmt_modified(Long gmt_modified) {
-        this.gmt_modified = gmt_modified;
-    }
 }
